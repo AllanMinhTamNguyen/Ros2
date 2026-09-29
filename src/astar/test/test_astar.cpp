@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include "/home/allan/projects/astar/include/astar.hpp"
+#include "src/astar/include/astar/astar.hpp"
 
 // Test 1: Can it find a path across an empty room?
 
