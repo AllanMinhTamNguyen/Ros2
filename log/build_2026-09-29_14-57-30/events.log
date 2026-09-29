@@ -1,0 +1,259 @@
+[0.000000] (-) TimerEvent: {}
+[0.000227] (astar) JobQueued: {'identifier': 'astar', 'dependencies': OrderedDict()}
+[0.000316] (astar) JobStarted: {'identifier': 'astar'}
+[0.018960] (astar) JobProgress: {'identifier': 'astar', 'progress': 'cmake'}
+[0.020762] (astar) JobProgress: {'identifier': 'astar', 'progress': 'build'}
+[0.027217] (astar) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/allan/ros2_ws/build/astar', '--', '-j8', '-l8'], 'cwd': '/home/allan/ros2_ws/build/astar', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'allan', 'FONTCONFIG_PATH': '/etc/fonts', 'GIO_MODULE_DIR': '/home/allan/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/266/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'PTYXIS_VERSION': '50.1', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/x86_64-linux-gnu:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib', 'HOME': '/home/allan', 'CHROME_DESKTOP': 'code_code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'OLDPWD': '/home/allan/ros2_ws', 'TERM_PROGRAM_VERSION': '1.139.1', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/266/usr/lib/x86_64-linux-gnu/gtk-3.0', 'IM_CONFIG_ENTRY': 'profile', 'GTK_IM_MODULE_FILE': '/home/allan/snap/code/common/.cache/immodules/immodules.cache', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/266/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/266/usr/share/code/code', 'MANAGERPID': '3495', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '3529', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=1f6da183e540983f0e1f990d6abb64e1', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/allan/ros2_ws/install', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'allan', 'MANAGERPIDFDID': '12603', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/dbus.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'allan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'FLATPAK_TTY_PROGRESS': '1', 'PATH': '/opt/ros/lyrical/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'GTK_EXE_PREFIX': '/snap/code/266/usr', 'INVOCATION_ID': '21a1d83fa49345b1a0daaca81859c938', 'XDG_MENU_PREFIX': 'gnome-', 'PTYXIS_PROFILE': '7a56f7ac6a087157e7743e0a6ab78325', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/266/usr/lib/locale', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.3416V3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-77b1acaa81.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/allan/snap/code/266/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/home/allan/ros2_ws/install/astar:/opt/ros/lyrical', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/allan/ros2_ws/build/astar', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=1f6da183e540983f0e1f990d6abb64e1', 'XDG_DATA_DIRS': '/home/allan/snap/code/266/.local/share:/home/allan/snap/code/266:/snap/code/266/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', 'PYTHONPATH': '/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '8400', 'CMAKE_PREFIX_PATH': '/home/allan/ros2_ws/install/astar:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/opt/ros/lyrical'}), 'shell': False}
+[0.099081] (astar) StdoutLine: {'line': b'-- Found ament_cmake: 2.8.8 (/opt/ros/lyrical/share/ament_cmake/cmake)\n'}
+[0.099502] (-) TimerEvent: {}
+[0.199832] (-) TimerEvent: {}
+[0.300098] (-) TimerEvent: {}
+[0.389081] (astar) StdoutLine: {'line': b'-- Found rclcpp: 32.0.3 (/opt/ros/lyrical/share/rclcpp/cmake)\n'}
+[0.400192] (-) TimerEvent: {}
+[0.417575] (astar) StdoutLine: {'line': b'-- Found rosidl_generator_c: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)\n'}
+[0.423808] (astar) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)\n'}
+[0.436269] (astar) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.449313] (astar) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500302] (-) TimerEvent: {}
+[0.530981] (astar) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.10.2 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)\n'}
+[0.532965] (astar) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 9.4.10 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.568276] (astar) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.601053] (-) TimerEvent: {}
+[0.680903] (astar) StdoutLine: {'line': b'-- Found nav_msgs: 5.9.3 (/opt/ros/lyrical/share/nav_msgs/cmake)\n'}
+[0.701134] (-) TimerEvent: {}
+[0.754699] (astar) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 2.8.8 (/opt/ros/lyrical/share/ament_cmake_gtest/cmake)\n'}
+[0.801221] (-) TimerEvent: {}
+[0.900250] (astar) StdoutLine: {'line': b'-- Configuring done (0.8s)\n'}
+[0.901314] (-) TimerEvent: {}
+[0.927036] (astar) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.968668] (astar) StdoutLine: {'line': b'-- Build files have been written to: /home/allan/ros2_ws/build/astar\n'}
+[1.001423] (-) TimerEvent: {}
+[1.017825] (astar) StdoutLine: {'line': b'[ 33%] Built target astar_core\n'}
+[1.054171] (astar) StdoutLine: {'line': b'[ 66%] Built target test_astar\n'}
+[1.065686] (astar) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/astar_node.dir/src/astar_node.cpp.o\x1b[0m\n'}
+[1.101528] (-) TimerEvent: {}
+[1.201851] (-) TimerEvent: {}
+[1.302092] (-) TimerEvent: {}
+[1.402358] (-) TimerEvent: {}
+[1.502600] (-) TimerEvent: {}
+[1.602873] (-) TimerEvent: {}
+[1.703142] (-) TimerEvent: {}
+[1.803420] (-) TimerEvent: {}
+[1.903687] (-) TimerEvent: {}
+[2.003960] (-) TimerEvent: {}
+[2.104199] (-) TimerEvent: {}
+[2.204447] (-) TimerEvent: {}
+[2.304739] (-) TimerEvent: {}
+[2.405041] (-) TimerEvent: {}
+[2.505340] (-) TimerEvent: {}
+[2.605646] (-) TimerEvent: {}
+[2.705959] (-) TimerEvent: {}
+[2.806296] (-) TimerEvent: {}
+[2.906578] (-) TimerEvent: {}
+[3.006866] (-) TimerEvent: {}
+[3.107181] (-) TimerEvent: {}
+[3.207504] (-) TimerEvent: {}
+[3.307820] (-) TimerEvent: {}
+[3.408120] (-) TimerEvent: {}
+[3.508411] (-) TimerEvent: {}
+[3.608714] (-) TimerEvent: {}
+[3.709021] (-) TimerEvent: {}
+[3.809315] (-) TimerEvent: {}
+[3.909626] (-) TimerEvent: {}
+[4.009920] (-) TimerEvent: {}
+[4.111048] (-) TimerEvent: {}
+[4.211513] (-) TimerEvent: {}
+[4.311806] (-) TimerEvent: {}
+[4.412100] (-) TimerEvent: {}
+[4.512397] (-) TimerEvent: {}
+[4.612693] (-) TimerEvent: {}
+[4.712981] (-) TimerEvent: {}
+[4.813282] (-) TimerEvent: {}
+[4.913583] (-) TimerEvent: {}
+[5.013879] (-) TimerEvent: {}
+[5.114182] (-) TimerEvent: {}
+[5.214470] (-) TimerEvent: {}
+[5.314756] (-) TimerEvent: {}
+[5.415041] (-) TimerEvent: {}
+[5.515351] (-) TimerEvent: {}
+[5.615671] (-) TimerEvent: {}
+[5.716012] (-) TimerEvent: {}
+[5.816355] (-) TimerEvent: {}
+[5.916695] (-) TimerEvent: {}
+[6.017021] (-) TimerEvent: {}
+[6.117327] (-) TimerEvent: {}
+[6.217629] (-) TimerEvent: {}
+[6.317919] (-) TimerEvent: {}
+[6.418221] (-) TimerEvent: {}
+[6.518526] (-) TimerEvent: {}
+[6.618810] (-) TimerEvent: {}
+[6.719100] (-) TimerEvent: {}
+[6.819391] (-) TimerEvent: {}
+[6.919685] (-) TimerEvent: {}
+[7.019977] (-) TimerEvent: {}
+[7.120286] (-) TimerEvent: {}
+[7.220579] (-) TimerEvent: {}
+[7.320872] (-) TimerEvent: {}
+[7.421141] (-) TimerEvent: {}
+[7.521449] (-) TimerEvent: {}
+[7.621744] (-) TimerEvent: {}
+[7.722035] (-) TimerEvent: {}
+[7.822330] (-) TimerEvent: {}
+[7.922617] (-) TimerEvent: {}
+[8.022913] (-) TimerEvent: {}
+[8.123214] (-) TimerEvent: {}
+[8.223508] (-) TimerEvent: {}
+[8.323791] (-) TimerEvent: {}
+[8.424083] (-) TimerEvent: {}
+[8.524372] (-) TimerEvent: {}
+[8.624655] (-) TimerEvent: {}
+[8.724942] (-) TimerEvent: {}
+[8.825264] (-) TimerEvent: {}
+[8.925562] (-) TimerEvent: {}
+[9.025850] (-) TimerEvent: {}
+[9.126159] (-) TimerEvent: {}
+[9.226466] (-) TimerEvent: {}
+[9.326767] (-) TimerEvent: {}
+[9.427064] (-) TimerEvent: {}
+[9.527360] (-) TimerEvent: {}
+[9.627659] (-) TimerEvent: {}
+[9.727998] (-) TimerEvent: {}
+[9.828285] (-) TimerEvent: {}
+[9.928606] (-) TimerEvent: {}
+[10.028933] (-) TimerEvent: {}
+[10.129238] (-) TimerEvent: {}
+[10.229581] (-) TimerEvent: {}
+[10.329961] (-) TimerEvent: {}
+[10.430361] (-) TimerEvent: {}
+[10.530717] (-) TimerEvent: {}
+[10.631083] (-) TimerEvent: {}
+[10.731436] (-) TimerEvent: {}
+[10.831724] (-) TimerEvent: {}
+[10.932018] (-) TimerEvent: {}
+[11.032295] (-) TimerEvent: {}
+[11.132587] (-) TimerEvent: {}
+[11.232900] (-) TimerEvent: {}
+[11.333179] (-) TimerEvent: {}
+[11.433470] (-) TimerEvent: {}
+[11.533769] (-) TimerEvent: {}
+[11.634107] (-) TimerEvent: {}
+[11.734540] (-) TimerEvent: {}
+[11.834952] (-) TimerEvent: {}
+[11.935244] (-) TimerEvent: {}
+[12.035524] (-) TimerEvent: {}
+[12.135800] (-) TimerEvent: {}
+[12.236069] (-) TimerEvent: {}
+[12.336332] (-) TimerEvent: {}
+[12.436607] (-) TimerEvent: {}
+[12.536883] (-) TimerEvent: {}
+[12.637171] (-) TimerEvent: {}
+[12.737456] (-) TimerEvent: {}
+[12.837729] (-) TimerEvent: {}
+[12.938012] (-) TimerEvent: {}
+[13.038275] (-) TimerEvent: {}
+[13.138567] (-) TimerEvent: {}
+[13.238839] (-) TimerEvent: {}
+[13.339158] (-) TimerEvent: {}
+[13.439447] (-) TimerEvent: {}
+[13.539750] (-) TimerEvent: {}
+[13.640073] (-) TimerEvent: {}
+[13.740375] (-) TimerEvent: {}
+[13.840725] (-) TimerEvent: {}
+[13.941125] (-) TimerEvent: {}
+[14.041606] (-) TimerEvent: {}
+[14.142152] (-) TimerEvent: {}
+[14.242427] (-) TimerEvent: {}
+[14.342779] (-) TimerEvent: {}
+[14.443082] (-) TimerEvent: {}
+[14.543350] (-) TimerEvent: {}
+[14.643611] (-) TimerEvent: {}
+[14.743954] (-) TimerEvent: {}
+[14.844285] (-) TimerEvent: {}
+[14.944676] (-) TimerEvent: {}
+[15.045013] (-) TimerEvent: {}
+[15.145378] (-) TimerEvent: {}
+[15.245751] (-) TimerEvent: {}
+[15.346102] (-) TimerEvent: {}
+[15.446459] (-) TimerEvent: {}
+[15.546879] (-) TimerEvent: {}
+[15.647169] (-) TimerEvent: {}
+[15.747559] (-) TimerEvent: {}
+[15.847858] (-) TimerEvent: {}
+[15.948224] (-) TimerEvent: {}
+[16.048591] (-) TimerEvent: {}
+[16.148915] (-) TimerEvent: {}
+[16.249205] (-) TimerEvent: {}
+[16.349550] (-) TimerEvent: {}
+[16.449834] (-) TimerEvent: {}
+[16.550153] (-) TimerEvent: {}
+[16.650419] (-) TimerEvent: {}
+[16.750660] (-) TimerEvent: {}
+[16.850891] (-) TimerEvent: {}
+[16.951129] (-) TimerEvent: {}
+[17.051366] (-) TimerEvent: {}
+[17.151735] (-) TimerEvent: {}
+[17.252036] (-) TimerEvent: {}
+[17.352341] (-) TimerEvent: {}
+[17.452640] (-) TimerEvent: {}
+[17.553008] (-) TimerEvent: {}
+[17.653321] (-) TimerEvent: {}
+[17.753586] (-) TimerEvent: {}
+[17.853839] (-) TimerEvent: {}
+[17.954107] (-) TimerEvent: {}
+[18.054357] (-) TimerEvent: {}
+[18.154613] (-) TimerEvent: {}
+[18.254904] (-) TimerEvent: {}
+[18.355173] (-) TimerEvent: {}
+[18.455458] (-) TimerEvent: {}
+[18.555725] (-) TimerEvent: {}
+[18.655972] (-) TimerEvent: {}
+[18.756256] (-) TimerEvent: {}
+[18.856513] (-) TimerEvent: {}
+[18.956786] (-) TimerEvent: {}
+[19.057055] (-) TimerEvent: {}
+[19.157309] (-) TimerEvent: {}
+[19.257591] (-) TimerEvent: {}
+[19.357996] (-) TimerEvent: {}
+[19.458305] (-) TimerEvent: {}
+[19.558653] (-) TimerEvent: {}
+[19.658947] (-) TimerEvent: {}
+[19.664634] (astar) StdoutLine: {'line': b'[100%] \x1b[1m\x1b[32mLinking CXX executable astar_node\x1b[0m\n'}
+[19.759062] (-) TimerEvent: {}
+[19.859343] (-) TimerEvent: {}
+[19.959739] (-) TimerEvent: {}
+[20.060079] (-) TimerEvent: {}
+[20.160372] (-) TimerEvent: {}
+[20.260667] (-) TimerEvent: {}
+[20.360943] (-) TimerEvent: {}
+[20.445977] (astar) StdoutLine: {'line': b'[100%] Built target astar_node\n'}
+[20.461359] (-) TimerEvent: {}
+[20.462396] (astar) CommandEnded: {'returncode': 0}
+[20.463847] (astar) JobProgress: {'identifier': 'astar', 'progress': 'install'}
+[20.477027] (astar) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/allan/ros2_ws/build/astar'], 'cwd': '/home/allan/ros2_ws/build/astar', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'allan', 'FONTCONFIG_PATH': '/etc/fonts', 'GIO_MODULE_DIR': '/home/allan/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/266/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'PTYXIS_VERSION': '50.1', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/x86_64-linux-gnu:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib', 'HOME': '/home/allan', 'CHROME_DESKTOP': 'code_code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'OLDPWD': '/home/allan/ros2_ws', 'TERM_PROGRAM_VERSION': '1.139.1', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/266/usr/lib/x86_64-linux-gnu/gtk-3.0', 'IM_CONFIG_ENTRY': 'profile', 'GTK_IM_MODULE_FILE': '/home/allan/snap/code/common/.cache/immodules/immodules.cache', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/266/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/266/usr/share/code/code', 'MANAGERPID': '3495', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '3529', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=1f6da183e540983f0e1f990d6abb64e1', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/allan/ros2_ws/install', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'allan', 'MANAGERPIDFDID': '12603', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/dbus.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'allan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'FLATPAK_TTY_PROGRESS': '1', 'PATH': '/opt/ros/lyrical/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'GTK_EXE_PREFIX': '/snap/code/266/usr', 'INVOCATION_ID': '21a1d83fa49345b1a0daaca81859c938', 'XDG_MENU_PREFIX': 'gnome-', 'PTYXIS_PROFILE': '7a56f7ac6a087157e7743e0a6ab78325', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/266/usr/lib/locale', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.3416V3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-77b1acaa81.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/allan/snap/code/266/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/home/allan/ros2_ws/install/astar:/opt/ros/lyrical', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/allan/ros2_ws/build/astar', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=1f6da183e540983f0e1f990d6abb64e1', 'XDG_DATA_DIRS': '/home/allan/snap/code/266/.local/share:/home/allan/snap/code/266:/snap/code/266/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', 'PYTHONPATH': '/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '8400', 'CMAKE_PREFIX_PATH': '/home/allan/ros2_ws/install/astar:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/opt/ros/lyrical'}), 'shell': False}
+[20.487088] (astar) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.487391] (astar) StdoutLine: {'line': b'-- Installing: /home/allan/ros2_ws/install/astar/lib/astar/astar_node\n'}
+[20.506308] (astar) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/allan/ros2_ws/install/astar/lib/astar/astar_node" to ""\n'}
+[20.506578] (astar) StdoutLine: {'line': b'-- Installing: /home/allan/ros2_ws/install/astar/lib/libastar_core.so\n'}
+[20.506911] (astar) StdoutLine: {'line': b'-- Up-to-date: /home/allan/ros2_ws/install/astar/include\n'}
+[20.507151] (astar) StdoutLine: {'line': b'-- Up-to-date: /home/allan/ros2_ws/install/astar/include/astar\n'}
+[20.507463] (astar) StdoutLine: {'line': b'-- Up-to-date: /home/allan/ros2_ws/install/astar/include/astar/astar.hpp\n'}
+[20.507720] (astar) StdoutLine: {'line': b'-- Up-to-date: /home/allan/ros2_ws/install/astar/share/ament_index/resource_index/package_run_dependencies/astar\n'}
+[20.507964] (astar) StdoutLine: {'line': b'-- Installing: /home/allan/ros2_ws/install/astar/share/ament_index/resource_index/parent_prefix_path/astar\n'}
+[20.508130] (astar) StdoutLine: {'line': b'-- Up-to-date: /home/allan/ros2_ws/install/astar/share/astar/environment/ament_prefix_path.sh\n'}
+[20.508269] (astar) StdoutLine: {'line': b'-- Up-to-date: /home/allan/ros2_ws/install/astar/share/astar/environment/ament_prefix_path.dsv\n'}
+[20.508415] (astar) StdoutLine: {'line': b'-- Up-to-date: /home/allan/ros2_ws/install/astar/share/astar/environment/path.sh\n'}
+[20.509164] (astar) StdoutLine: {'line': b'-- Up-to-date: /home/allan/ros2_ws/install/astar/share/astar/environment/path.dsv\n'}
+[20.509401] (astar) StdoutLine: {'line': b'-- Up-to-date: /home/allan/ros2_ws/install/astar/share/astar/local_setup.bash\n'}
+[20.509566] (astar) StdoutLine: {'line': b'-- Up-to-date: /home/allan/ros2_ws/install/astar/share/astar/local_setup.fish\n'}
+[20.509746] (astar) StdoutLine: {'line': b'-- Up-to-date: /home/allan/ros2_ws/install/astar/share/astar/local_setup.sh\n'}
+[20.509919] (astar) StdoutLine: {'line': b'-- Up-to-date: /home/allan/ros2_ws/install/astar/share/astar/local_setup.zsh\n'}
+[20.510110] (astar) StdoutLine: {'line': b'-- Up-to-date: /home/allan/ros2_ws/install/astar/share/astar/local_setup.dsv\n'}
+[20.510284] (astar) StdoutLine: {'line': b'-- Installing: /home/allan/ros2_ws/install/astar/share/astar/package.dsv\n'}
+[20.510458] (astar) StdoutLine: {'line': b'-- Up-to-date: /home/allan/ros2_ws/install/astar/share/ament_index/resource_index/packages/astar\n'}
+[20.510635] (astar) StdoutLine: {'line': b'-- Up-to-date: /home/allan/ros2_ws/install/astar/share/astar/cmake/astarConfig.cmake\n'}
+[20.510819] (astar) StdoutLine: {'line': b'-- Up-to-date: /home/allan/ros2_ws/install/astar/share/astar/cmake/astarConfig-version.cmake\n'}
+[20.511000] (astar) StdoutLine: {'line': b'-- Up-to-date: /home/allan/ros2_ws/install/astar/share/astar/package.xml\n'}
+[20.513951] (astar) CommandEnded: {'returncode': 0}
+[20.561035] (astar) JobEnded: {'identifier': 'astar', 'rc': 0}
+[20.562275] (-) TimerEvent: {}
+[20.563005] (-) EventReactorShutdown: {}

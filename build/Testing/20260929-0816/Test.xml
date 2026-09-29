@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20260929-0816-Experimental"
+	Name="allan-Latitude-7490"
+	Generator="ctest-4.2.3"
+	CompilerName="/usr/bin/g++"
+	CompilerVersion="15.2.0"
+	OSName="Linux"
+	Hostname="allan-Latitude-7490"
+	OSRelease="7.0.0-34-generic"
+	OSVersion="#34-Ubuntu SMP PREEMPT_DYNAMIC Wed Sep  2 14:29:37 UTC 2026"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="142"
+	ModelName="Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz"
+	ProcessorCacheSize="6144"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="4095"
+	TotalPhysicalMemory="15352"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="2900.1"
+	>
+	<Testing>
+		<StartDateTime>Sep 29 17:21 +07</StartDateTime>
+		<StartTestTime>1790677298</StartTestTime>
+		<TestList/>
+		<EndDateTime>Sep 29 17:21 +07</EndDateTime>
+		<EndTestTime>1790677298</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

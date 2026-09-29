@@ -1,0 +1,44 @@
+[0.027s] Invoking command in '/home/allan/ros2_ws/build/astar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/allan/ros2_ws/build/astar -- -j8 -l8
+[0.111s] [ 16%] [32mBuilding CXX object CMakeFiles/astar_core.dir/src/astar.cpp.o[0m
+[0.588s] [01m[K/home/allan/ros2_ws/src/astar/src/astar.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<int, int> > astar::Planner::[01;32m[Kfind_path[m[K(int, int, int, int, const std::vector<int>&)[m[K’:
+[0.588s] [01m[K/home/allan/ros2_ws/src/astar/src/astar.cpp:28:100:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kastar::Node::parent_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[0.588s]    28 | e start_node{start_x, start_y, 0.0f, heuristic(start_x, start_y, goal_x, goal_y), -1, -1[01;35m[K}[m[K;
+[0.588s]       |                                                                                         [01;35m[K^[m[K
+[0.599s] [01m[K/home/allan/ros2_ws/src/astar/src/astar.cpp:78:96:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kcurrent.astar::Node::x[m[K’ from ‘[01m[K[01;32m[Kint[m[K[m[K’ to ‘[01m[K[01;34m[Kfloat[m[K[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/C_002b_002b-Dialect-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[0.600s]    78 |             open_set.push(Node{neighbor_x, neighbor_y, g_cost, h_cost, [01;35m[Kcurrent.x[m[K, current.y});
+[0.600s]       |                                                                        [01;35m[K~~~~~~~~^[m[K
+[0.600s] [01m[K/home/allan/ros2_ws/src/astar/src/astar.cpp:78:108:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kastar::Node::parent_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[0.600s]    78 |         open_set.push(Node{neighbor_x, neighbor_y, g_cost, h_cost, current.x, current.y[01;35m[K}[m[K);
+[0.600s]       |                                                                                        [01;35m[K^[m[K
+[1.099s] [ 33%] [1m[32mLinking CXX shared library libastar_core.so[0m
+[1.220s] [ 33%] Built target astar_core
+[1.250s] [ 50%] [1m[32mLinking CXX executable test_astar[0m
+[1.258s] [ 66%] [1m[32mLinking CXX executable astar_node[0m
+[1.418s] [ 83%] Built target test_astar
+[2.114s] [100%] Built target astar_node
+[2.130s] Invoked command in '/home/allan/ros2_ws/build/astar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/allan/ros2_ws/build/astar -- -j8 -l8
+[2.144s] Invoking command in '/home/allan/ros2_ws/build/astar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/allan/ros2_ws/build/astar
+[2.154s] -- Install configuration: ""
+[2.154s] -- Installing: /home/allan/ros2_ws/install/astar/lib/astar/astar_node
+[2.171s] -- Set non-toolchain portion of runtime path of "/home/allan/ros2_ws/install/astar/lib/astar/astar_node" to ""
+[2.171s] -- Installing: /home/allan/ros2_ws/install/astar/lib/libastar_core.so
+[2.172s] -- Up-to-date: /home/allan/ros2_ws/install/astar/include
+[2.173s] -- Up-to-date: /home/allan/ros2_ws/install/astar/include/astar
+[2.173s] -- Up-to-date: /home/allan/ros2_ws/install/astar/include/astar/astar.hpp
+[2.173s] -- Up-to-date: /home/allan/ros2_ws/install/astar/share/ament_index/resource_index/package_run_dependencies/astar
+[2.173s] -- Up-to-date: /home/allan/ros2_ws/install/astar/share/ament_index/resource_index/parent_prefix_path/astar
+[2.173s] -- Up-to-date: /home/allan/ros2_ws/install/astar/share/astar/environment/ament_prefix_path.sh
+[2.173s] -- Up-to-date: /home/allan/ros2_ws/install/astar/share/astar/environment/ament_prefix_path.dsv
+[2.173s] -- Up-to-date: /home/allan/ros2_ws/install/astar/share/astar/environment/path.sh
+[2.174s] -- Up-to-date: /home/allan/ros2_ws/install/astar/share/astar/environment/path.dsv
+[2.174s] -- Up-to-date: /home/allan/ros2_ws/install/astar/share/astar/local_setup.bash
+[2.174s] -- Up-to-date: /home/allan/ros2_ws/install/astar/share/astar/local_setup.fish
+[2.174s] -- Up-to-date: /home/allan/ros2_ws/install/astar/share/astar/local_setup.sh
+[2.174s] -- Up-to-date: /home/allan/ros2_ws/install/astar/share/astar/local_setup.zsh
+[2.174s] -- Up-to-date: /home/allan/ros2_ws/install/astar/share/astar/local_setup.dsv
+[2.174s] -- Installing: /home/allan/ros2_ws/install/astar/share/astar/package.dsv
+[2.174s] -- Up-to-date: /home/allan/ros2_ws/install/astar/share/ament_index/resource_index/packages/astar
+[2.174s] -- Up-to-date: /home/allan/ros2_ws/install/astar/share/astar/cmake/astarConfig.cmake
+[2.175s] -- Up-to-date: /home/allan/ros2_ws/install/astar/share/astar/cmake/astarConfig-version.cmake
+[2.175s] -- Up-to-date: /home/allan/ros2_ws/install/astar/share/astar/package.xml
+[2.177s] Invoked command in '/home/allan/ros2_ws/build/astar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/allan/ros2_ws/build/astar

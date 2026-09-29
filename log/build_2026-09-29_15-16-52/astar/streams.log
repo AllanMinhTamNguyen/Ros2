@@ -1,0 +1,29 @@
+[0.017s] Invoking command in '/home/allan/ros2_ws/build/astar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/allan/ros2_ws/build/astar -- -j8 -l8
+[0.089s] [ 33%] Built target astar_core
+[0.128s] [ 66%] Built target test_astar
+[0.144s] [100%] Built target astar_node
+[0.162s] Invoked command in '/home/allan/ros2_ws/build/astar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/allan/ros2_ws/build/astar -- -j8 -l8
+[0.177s] Invoking command in '/home/allan/ros2_ws/build/astar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/allan/ros2_ws/build/astar
+[0.190s] -- Install configuration: ""
+[0.191s] -- Up-to-date: /home/allan/ros2_ws/install/astar/lib/astar/astar_node
+[0.192s] -- Up-to-date: /home/allan/ros2_ws/install/astar/lib/libastar_core.so
+[0.192s] -- Up-to-date: /home/allan/ros2_ws/install/astar/include
+[0.193s] -- Up-to-date: /home/allan/ros2_ws/install/astar/include/astar
+[0.193s] -- Up-to-date: /home/allan/ros2_ws/install/astar/include/astar/astar.hpp
+[0.193s] -- Up-to-date: /home/allan/ros2_ws/install/astar/share/ament_index/resource_index/package_run_dependencies/astar
+[0.193s] -- Up-to-date: /home/allan/ros2_ws/install/astar/share/ament_index/resource_index/parent_prefix_path/astar
+[0.193s] -- Up-to-date: /home/allan/ros2_ws/install/astar/share/astar/environment/ament_prefix_path.sh
+[0.193s] -- Up-to-date: /home/allan/ros2_ws/install/astar/share/astar/environment/ament_prefix_path.dsv
+[0.194s] -- Up-to-date: /home/allan/ros2_ws/install/astar/share/astar/environment/path.sh
+[0.194s] -- Up-to-date: /home/allan/ros2_ws/install/astar/share/astar/environment/path.dsv
+[0.194s] -- Up-to-date: /home/allan/ros2_ws/install/astar/share/astar/local_setup.bash
+[0.194s] -- Up-to-date: /home/allan/ros2_ws/install/astar/share/astar/local_setup.fish
+[0.195s] -- Up-to-date: /home/allan/ros2_ws/install/astar/share/astar/local_setup.sh
+[0.195s] -- Up-to-date: /home/allan/ros2_ws/install/astar/share/astar/local_setup.zsh
+[0.195s] -- Up-to-date: /home/allan/ros2_ws/install/astar/share/astar/local_setup.dsv
+[0.195s] -- Installing: /home/allan/ros2_ws/install/astar/share/astar/package.dsv
+[0.195s] -- Up-to-date: /home/allan/ros2_ws/install/astar/share/ament_index/resource_index/packages/astar
+[0.195s] -- Up-to-date: /home/allan/ros2_ws/install/astar/share/astar/cmake/astarConfig.cmake
+[0.196s] -- Up-to-date: /home/allan/ros2_ws/install/astar/share/astar/cmake/astarConfig-version.cmake
+[0.196s] -- Up-to-date: /home/allan/ros2_ws/install/astar/share/astar/package.xml
+[0.199s] Invoked command in '/home/allan/ros2_ws/build/astar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/allan/ros2_ws/build/astar

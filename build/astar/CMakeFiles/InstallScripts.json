@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/allan/ros2_ws/build/astar/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

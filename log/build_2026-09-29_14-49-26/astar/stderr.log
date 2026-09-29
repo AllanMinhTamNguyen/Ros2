@@ -1,0 +1,10 @@
+[01m[K/home/allan/ros2_ws/src/astar/src/astar.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<int, int> > astar::Planner::[01;32m[Kfind_path[m[K(int, int, int, int, const std::vector<int>&)[m[K’:
+[01m[K/home/allan/ros2_ws/src/astar/src/astar.cpp:30:100:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kastar::Node::parent_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+   30 |         Node start_node{start_x, start_y, 0.0f, heuristic(start_x, start_y, goal_x, goal_y), -1, -1[01;35m[K}[m[K;
+      |                                                                                                    [01;35m[K^[m[K
+[01m[K/home/allan/ros2_ws/src/astar/src/astar.cpp:78:92:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kcurrent.astar::Node::x[m[K’ from ‘[01m[K[01;32m[Kint[m[K[m[K’ to ‘[01m[K[01;34m[Kfloat[m[K[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/C_002b_002b-Dialect-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+   78 |                         open_set.push(Node{neighbor_x, neighbor_y, g_cost, h_cost, [01;35m[Kcurrent.x[m[K, current.y});
+      |                                                                                    [01;35m[K~~~~~~~~^[m[K
+[01m[K/home/allan/ros2_ws/src/astar/src/astar.cpp:78:104:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kastar::Node::parent_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+   78 |                       open_set.push(Node{neighbor_x, neighbor_y, g_cost, h_cost, current.x, current.y[01;35m[K}[m[K);
+      |                                                                                                      [01;35m[K^[m[K
