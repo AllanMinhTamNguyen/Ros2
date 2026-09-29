@@ -1,0 +1,47 @@
+name: ROS 2 CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    # Run directly inside the official ROS 2 Lyrical environment
+    container:
+      image: osrf/ros:lyrical-desktop
+
+    steps:
+      # 1. Checkout your code into a standard ROS 2 workspace structure
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          path: ros2_ws/src/astar
+
+      # 2. Automatically resolve and install package.xml dependencies
+      - name: Install ROS Dependencies
+        working-directory: ros2_ws
+        run: |
+          apt-get update
+          rosdep update
+          rosdep install --from-paths src --ignore-src -r -y
+
+      # 3. Compile the C++ core and node
+      - name: Build A* Package
+        working-directory: ros2_ws
+        shell: bash
+        run: |
+          source /opt/ros/lyrical/setup.bash
+          colcon build --packages-select astar --cmake-args -DCMAKE_BUILD_TYPE=Release
+
+      # 4. Run automated C++ unit tests and linters
+      - name: Run Tests
+        working-directory: ros2_ws
+        shell: bash
+        run: |
+          source /opt/ros/lyrical/setup.bash
+          source install/setup.bash
+          colcon test --packages-select astar
+          colcon test-result --verbose

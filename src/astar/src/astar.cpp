@@ -77,7 +77,6 @@ namespace astar {
                             came_from[next_index] = {current.x, current.y};
                             open_set.push(Node{neighbor_x, neighbor_y, g_cost, h_cost, current.x, current.y});
                         }
-            
                     }
                 }
             }
