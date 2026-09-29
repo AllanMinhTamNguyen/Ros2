@@ -6,17 +6,13 @@
 TEST(AStarTest, EmptyGrid) {
     astar::Planner planner(5,5);
     std::vector<int> grid (25,0);
-
     auto path = planner.find_path(0,0,4,4, grid);
-
     ASSERT_FALSE(path.empty());
     EXPECT_EQ(path.front().first, 0);
     EXPECT_EQ(path.front().second, 0);
     EXPECT_EQ(path.back().first, 4);
     EXPECT_EQ(path.back().second,4);
 }
-
-
 // Test 2: Can it navigate around an obstacle?
 TEST(AStarTest, NavigatesAroundWall) {
     astar::Planner planner(5, 5);

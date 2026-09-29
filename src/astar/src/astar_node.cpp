@@ -32,13 +32,13 @@ private:
         }
         planner_ = std::make_shared<astar::Planner>(map_msg_.info.width, map_msg_.info.height);
         map_ready_ = true;
-        RCLCPP_INFO(this->get_logger(), "Map received. Use '2D Pose Estimate' to set start.");
+        RCLCPP_INFO(this->get_logger(), "Map received.");
     }
 
     void start_callback(const geometry_msgs::msg::PoseWithCovarianceStamped::SharedPtr msg) {
         start_pose_ = msg->pose.pose;
         start_ready_ = true;
-        RCLCPP_INFO(this->get_logger(), "Start locked. Use '2D Nav Goal' to set destination.");
+        RCLCPP_INFO(this->get_logger(), "Start locked.");
     }
 
     void goal_callback(const geometry_msgs::msg::PoseStamped::SharedPtr msg) {
@@ -59,7 +59,7 @@ private:
             path_msg.poses.push_back(pose);
         }
         path_pub_->publish(path_msg);
-        RCLCPP_INFO(this->get_logger(), "Path published to /plan!");
+        RCLCPP_INFO(this->get_logger(), "Path published to /plan");
     }
 
     rclcpp::Subscription<nav_msgs::msg::OccupancyGrid>::SharedPtr map_sub_;
