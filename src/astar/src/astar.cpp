@@ -3,6 +3,7 @@
 #include <cmath>
 #include <algorithm>
 #include <unordered_map>
+#include <vector>
 
 namespace astar {
 
@@ -14,6 +15,7 @@ namespace astar {
     
     float Planner::heuristic(int x1, int y1, int x2, int y2) const {
         return std::abs(x1 - x2) + std::abs(y1 - y2);
+
     }
     
     std::vector<std::pair<int,int>> Planner::find_path(

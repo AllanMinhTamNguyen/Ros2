@@ -1,0 +1,32 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/astar_core.dir/src/astar.cpp.o[0m
+[ 33%] [1m[32mLinking CXX shared library libastar_core.so[0m
+[ 33%] Built target astar_core
+[ 50%] [32mBuilding CXX object CMakeFiles/test_astar.dir/test/test_astar.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/astar_node.dir/src/astar_node.cpp.o[0m
+[ 83%] [1m[32mLinking CXX executable test_astar[0m
+[ 83%] Built target test_astar
+[100%] [1m[32mLinking CXX executable astar_node[0m
+[100%] Built target astar_node
+-- Install configuration: ""
+-- Installing: /home/allan/ros2_ws/install/astar/lib/astar/astar_node
+-- Set non-toolchain portion of runtime path of "/home/allan/ros2_ws/install/astar/lib/astar/astar_node" to ""
+-- Installing: /home/allan/ros2_ws/install/astar/lib/libastar_core.so
+-- Up-to-date: /home/allan/ros2_ws/install/astar/include
+-- Up-to-date: /home/allan/ros2_ws/install/astar/include/astar
+-- Up-to-date: /home/allan/ros2_ws/install/astar/include/astar/astar.hpp
+-- Up-to-date: /home/allan/ros2_ws/install/astar/share/ament_index/resource_index/package_run_dependencies/astar
+-- Up-to-date: /home/allan/ros2_ws/install/astar/share/ament_index/resource_index/parent_prefix_path/astar
+-- Up-to-date: /home/allan/ros2_ws/install/astar/share/astar/environment/ament_prefix_path.sh
+-- Up-to-date: /home/allan/ros2_ws/install/astar/share/astar/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/allan/ros2_ws/install/astar/share/astar/environment/path.sh
+-- Up-to-date: /home/allan/ros2_ws/install/astar/share/astar/environment/path.dsv
+-- Up-to-date: /home/allan/ros2_ws/install/astar/share/astar/local_setup.bash
+-- Up-to-date: /home/allan/ros2_ws/install/astar/share/astar/local_setup.fish
+-- Up-to-date: /home/allan/ros2_ws/install/astar/share/astar/local_setup.sh
+-- Up-to-date: /home/allan/ros2_ws/install/astar/share/astar/local_setup.zsh
+-- Up-to-date: /home/allan/ros2_ws/install/astar/share/astar/local_setup.dsv
+-- Installing: /home/allan/ros2_ws/install/astar/share/astar/package.dsv
+-- Up-to-date: /home/allan/ros2_ws/install/astar/share/ament_index/resource_index/packages/astar
+-- Up-to-date: /home/allan/ros2_ws/install/astar/share/astar/cmake/astarConfig.cmake
+-- Up-to-date: /home/allan/ros2_ws/install/astar/share/astar/cmake/astarConfig-version.cmake
+-- Up-to-date: /home/allan/ros2_ws/install/astar/share/astar/package.xml
