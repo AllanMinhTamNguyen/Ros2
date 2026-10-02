@@ -18,6 +18,8 @@ USAGE:
 ros2 run astar astar_node
 
 2. Publish mao and Open RVizz2
+ros2 topic pub --qos-durability transient_local --once /map nav_msgs/msg/OccupancyGrid "{header: {frame_id: 'map'}, info: {resolution: 1.0, width: 10, height: 10, origin: {position: {x: -5.0, y: -5.0, z: 0.0}}}, data: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}"
+
 Open RVizz2
 
 3.Configure RVizz2
